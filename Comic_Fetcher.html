@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <title>XKCD Comic Viewer</title>
+    <link rel="stylesheet" href="styles/Comic_Fetcher.css">
 </head>
 <body>
     <header>
@@ -18,15 +18,13 @@
         </nav>
     </header>
     <div class="container">
-        <section class="header">
-            <img src="photos/Urvatullo.jpg" alt="Urvatullo Atoev">
-            <h1>Urvatullo Atoev</h1>
-            <p>Front-end developer and Sport Programmer</p>
-        </section>
-        <section class="main">
-            <h2>About Me</h2>
-            <p>Hello! My name is Urvatullo Atoev. I am a student in Innopolis University. I am a front-end developer with a bit of experience when I was a 9-year student.</p>
-        </section>
+        <div class="comic">
+            <h1 id="comic-title">Hello</h1>
+            <img id="comic-img" src="" alt="">
+            <p id="comic-alt"></p>
+            <p id="comic-date"></p>
+        </div>
     </div>
+    <script src="Script/Comic_Fetcher.js"></script>
 </body>
 </html>
