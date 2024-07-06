@@ -1,9 +1,4 @@
-// src/types.ts
-export interface ComicIdResponse {
-    id: string;
-}
-
-export interface ComicResponse {
+export interface Comic {
     month: string;
     num: number;
     link: string;
@@ -15,4 +10,5 @@ export interface ComicResponse {
     img: string;
     title: string;
     day: string;
-}
+  }
+  

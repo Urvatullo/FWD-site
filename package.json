@@ -1,24 +1,26 @@
 {
-    "name": "xkcd-comic-viewer",
+    "name": "your-project-name",
     "version": "1.0.0",
-    "description": "A simple XKCD comic viewer",
-    "main": "dist/bundle.js",
     "scripts": {
-        "build": "tsc"
-    },
-    "author": "Urvatullo Atoev",
-    "license": "MIT",
-    "devDependencies": {
-      "typescript": "^4.3.5",
-      "webpack": "^5.44.0",
-      "webpack-cli": "^4.7.2",
-      "ts-loader": "^9.2.3"
+      "dev": "svelte-kit dev",
+      "build": "svelte-kit build",
+      "preview": "svelte-kit preview",
+      "lint": "eslint src",
+      "format": "prettier --write src"
     },
     "dependencies": {
-      "dayjs": "^1.10.7"
-    }
+      "@sveltejs/kit": "next",
+      "svelte": "^3.50.1"
+    },
     "devDependencies": {
-    "@types/dayjs": "^1.10.4"
-  }
+      "@sveltejs/adapter-static": "next",
+      "@tsconfig/svelte": "^2.0.0",
+      "eslint": "^7.32.0",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-svelte3": "^3.2.1",
+      "prettier": "^2.3.2",
+      "prettier-plugin-svelte": "^2.2.0",
+      "typescript": "^4.3.5"
+    }
   }
   
