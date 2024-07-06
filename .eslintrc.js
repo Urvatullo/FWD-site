@@ -17,7 +17,7 @@ module.exports = {
       'svelte3/typescript': require('typescript')
     },
     rules: {
-      // Add any custom rules here
+      "My rules are here":
     }
   };
   
